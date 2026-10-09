@@ -1,0 +1,22 @@
+const quotes = [
+  { text: "The first lesson of economics is scarcity: there is never enough of anything to satisfy all those who want it.", author: "Thomas Sowell" },
+  { text: "Economics is a study of mankind in the ordinary business of life.", author: "Alfred Marshall" },
+  { text: "There is no such thing as a free lunch.", author: "Milton Friedman" },
+  { text: "The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design.", author: "F. A. Hayek" },
+  { text: "Economics is the study of how society manages its scarce resources.", author: "N. Gregory Mankiw" },
+  { text: "The real price of everything, what everything really costs to the man who wants to acquire it, is the toil and trouble of acquiring it.", author: "Adam Smith" },
+  { text: "Opportunity cost is the value of the best alternative forgone.", author: "Economics principle" },
+  { text: "Every choice has a cost — the road not taken.", author: "Anonymous" },
+  { text: "In economics, the individual actor is the consumer, the worker, the producer.", author: "Gary Becker" },
+  { text: "Rational people think at the margin.", author: "N. Gregory Mankiw" },
+  { text: "Nothing is free. Even the air we breathe has an opportunity cost in a burning building.", author: "Adapted from your notes" },
+  { text: "Interest is the price of earlier availability of resources.", author: "Economics principle" },
+  { text: "Prices are the signals that guide resources to their highest-valued uses.", author: "Economics principle" },
+  { text: "Competition is not always about money; it is about whoever the criterion selects.", author: "Economics principle" },
+  { text: "Specialization follows comparative advantage, not absolute advantage.", author: "David Ricardo" },
+  { text: "Positive statements describe what is; normative statements prescribe what ought to be.", author: "Economics principle" },
+  { text: "Where there is scarcity, there must be allocation.", author: "Economics principle" },
+  { text: "Demand is not want; demand is want backed by ability to pay.", author: "Economics principle" },
+  { text: "Equilibrium is a state where no one has a reason to change their plans.", author: "Economics principle" },
+  { text: "Trade makes specialization feasible, and specialization raises total output.", author: "Economics principle" }
+];
