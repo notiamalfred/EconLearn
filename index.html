@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EconLearn — HKDSE Economics Study Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Econ<span>Learn</span></a>
+
+      <div class="skill-search" role="search">
+        <div class="skill-search__field">
+          <svg class="skill-search__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="11" cy="11" r="7"></circle>
+            <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+          </svg>
+
+          <label class="visually-hidden" for="skillSearch">Search topics</label>
+          <input id="skillSearch" type="search" placeholder="Search topics…  (press / )"
+                 autocomplete="off" spellcheck="false" aria-describedby="skillSearchStatus">
+
+          <button id="skillSearchClear" class="skill-search__clear" type="button" hidden
+                  aria-label="Clear search">&times;</button>
+
+          <div id="searchResults" class="search-results" hidden></div>
+        </div>
+
+        <p id="skillSearchStatus" class="skill-search__status" role="status" aria-live="polite"></p>
+      </div>
+
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="scarcity-cost.html">Scarcity &amp; Cost</a>
+        <a href="interest.html">Interest</a>
+        <a href="allocation.html">Allocation</a>
+        <a href="circular-flow.html">Circular Flow</a>
+        <a href="demand-supply.html">Demand &amp; Supply</a>
+        <a href="exam-skills.html">Exam Skills</a>
+        <a href="glossary.html">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Master Economics, One Step at a Time</h1>
+      <p>
+        Study scarcity, opportunity cost, interest, allocation, and market
+        equilibrium with clear explanations designed for HKDSE Economics.
+      </p>
+      <a href="scarcity-cost.html" class="btn">Start Learning</a>
+    </div>
+  </section>
+
+  <section class="quote-of-the-day">
+    <div class="container">
+      <h2>Quote of the Day</h2>
+      <blockquote id="daily-quote" class="daily-quote"></blockquote>
+    </div>
+  </section>
+
+  <section id="concepts" class="concepts">
+    <div class="container">
+      <h2>Key Concepts</h2>
+      <p class="section-subtitle">The building blocks every HKDSE Economics student must master.</p>
+      <div class="concept-grid">
+        <div class="concept-card">
+          <h3>Scarcity</h3>
+          <p>Resources are not enough to satisfy all wants. Relative, not absolute.</p>
+        </div>
+        <div class="concept-card">
+          <h3>Opportunity Cost</h3>
+          <p>The value of the highest-valued option forgone at the moment of decision.</p>
+        </div>
+        <div class="concept-card">
+          <h3>Full Cost</h3>
+          <p>Explicit cost plus implicit cost. The complete economic cost of a choice.</p>
+        </div>
+        <div class="concept-card">
+          <h3>Interest</h3>
+          <p>The price of earlier availability of resources. Exists wherever scarcity exists.</p>
+        </div>
+        <div class="concept-card">
+          <h3>Allocation</h3>
+          <p>Price competition vs non-price competition — who gets what, and why.</p>
+        </div>
+        <div class="concept-card">
+          <h3>Demand &amp; Supply</h3>
+          <p>Plans at all prices, horizontal summation, and market equilibrium.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Why Learn With Us?</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3><a href="scarcity-cost.html">Scarcity &amp; Cost</a></h3>
+          <p>Scarcity, opportunity cost, full cost, and the three cost traps.</p>
+        </div>
+        <div class="feature-card">
+          <h3><a href="interest.html">Interest</a></h3>
+          <p>Positive time preference and why interest exists even without borrowing.</p>
+        </div>
+        <div class="feature-card">
+          <h3><a href="allocation.html">Allocation</a></h3>
+          <p>Price and non-price competition, goods vs bads, economic systems.</p>
+        </div>
+        <div class="feature-card">
+          <h3><a href="circular-flow.html">Circular Flow</a></h3>
+          <p>Four flows, two markets, specialization, and positive/normative.</p>
+        </div>
+        <div class="feature-card">
+          <h3><a href="demand-supply.html">Demand &amp; Supply</a></h3>
+          <p>Demand, supply, horizontal summation, relative price, equilibrium.</p>
+        </div>
+        <div class="feature-card">
+          <h3><a href="exam-skills.html">Exam Skills</a></h3>
+          <p>Answer frames, worked examples, and common traps.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Keep learning, keep growing.</p>
+    </div>
+  </footer>
+
+  <script src="menu.js"></script>
+  <script src="quotes.js"></script>
+  <script src="daily-quote.js"></script>
+  <script src="site-search.js"></script>
+</body>
+</html>
