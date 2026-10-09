@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interest — EconLearn</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Econ<span>Learn</span></a>
+
+      <div class="skill-search" role="search">
+        <div class="skill-search__field">
+          <svg class="skill-search__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="11" cy="11" r="7"></circle>
+            <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+          </svg>
+          <label class="visually-hidden" for="skillSearch">Search topics</label>
+          <input id="skillSearch" type="search" placeholder="Search topics…  (press / )"
+                 autocomplete="off" spellcheck="false" aria-describedby="skillSearchStatus">
+          <button id="skillSearchClear" class="skill-search__clear" type="button" hidden
+                  aria-label="Clear search">&times;</button>
+          <div id="searchResults" class="search-results" hidden></div>
+        </div>
+        <p id="skillSearchStatus" class="skill-search__status" role="status" aria-live="polite"></p>
+      </div>
+
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="scarcity-cost.html">Scarcity &amp; Cost</a>
+        <a href="interest.html">Interest</a>
+        <a href="allocation.html">Allocation</a>
+        <a href="circular-flow.html">Circular Flow</a>
+        <a href="demand-supply.html">Demand &amp; Supply</a>
+        <a href="exam-skills.html">Exam Skills</a>
+        <a href="glossary.html">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="skill-page">
+    <div class="container">
+      <h2>Interest &amp; Time Preference</h2>
+      <p class="section-subtitle">Why a dollar today is worth more than a dollar tomorrow.</p>
+
+      <nav class="part-nav">
+        <a href="#part-basic" class="part-btn">Basics</a>
+        <a href="#part-why" class="part-btn">Why Interest Exists</a>
+        <a href="#part-noborrow" class="part-btn">Interest Without Borrowing</a>
+        <a href="#part-examples" class="part-btn">Examples</a>
+      </nav>
+
+      <h3 class="part-heading" id="part-basic">Basics</h3>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>Two perspectives on interest</h3>
+          <ul>
+            <li>To <strong>borrowers</strong>, interest is the <mark>cost of earlier availability of resources</mark>.</li>
+            <li>To <strong>lenders</strong>, interest is the <mark>compensation for deferred availability of resources</mark>.</li>
+          </ul>
+          <p>Borrowers choose to obtain something <em>earlier</em>. Lenders choose to obtain something <em>later</em> instead of now.</p>
+
+          <h3>Positive time preference</h3>
+          <p>People generally prefer the same amount of the same good <strong>earlier rather than later</strong>, because the value of current consumption &gt; the value of future consumption (of the same amount).</p>
+        </article>
+
+        <article class="skill-card">
+          <h3>Example — Peter and Susan</h3>
+          <p>Peter lent a comic book to Susan and received a Karina photocard. His book will be back in one week.</p>
+          <ul>
+            <li>To <strong>Susan</strong>, the Karina photocard is the <em>cost of earlier availability</strong> of the comic book.</li>
+            <li>To <strong>Peter</strong>, the Karina photocard is the <em>compensation for deferred availability</strong> of the comic book.</li>
+          </ul>
+          <p>This is interest in kind — no money needed.</p>
+        </article>
+      </div>
+
+      <h3 class="part-heading" id="part-why">Why Interest Exists</h3>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>The core reason</h3>
+          <p>Earlier consumption is itself an economic good, so people may pay for earlier access to resources.</p>
+
+          <h4>Which situations may interest exist in?</h4>
+          <ol>
+            <li>Barter economy (an economy where money doesn't exist)</li>
+            <li>Economy without inflation</li>
+            <li>Economy without scarcity</li>
+          </ol>
+          <p><strong>Answer:</strong> (1) and (2). Interest can exist without money and without inflation. But it cannot exist without scarcity — in a world with no scarcity, you could obtain or produce anything without opportunity cost, so there would be nothing to pay for earlier access.</p>
+        </article>
+      </div>
+
+      <h3 class="part-heading" id="part-noborrow">Interest Matters Even Without Borrowing</h3>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>Two options</h3>
+          <ul>
+            <li><strong>Option 1:</strong> buy it now.</li>
+            <li><strong>Option 2:</strong> buy it later.</li>
+          </ul>
+          <p>The <em>price</em> is not the interest. The value of choosing Option 2 is <mark>delaying the use of money</mark>. The benefit of choosing Option 2 is <strong>earning investment income during the time gained</strong>.</p>
+          <p>Even someone who never borrows faces an interest-like trade-off every time they choose to delay consumption.</p>
+        </article>
+      </div>
+
+      <h3 class="part-heading" id="part-examples">Worked Example</h3>
+      <div class="skill-grid">
+        <article class="skill-card example-card">
+          <h3>Lending a comic book</h3>
+          <p><strong>Decision:</strong> Peter chooses to lend his comic book to Susan for one week.</p>
+          <p><strong>Resources forgone:</strong> the use of the comic book for one week.</p>
+          <p><strong>Compensation received:</strong> a Karina photocard.</p>
+          <p><strong>Cost to Susan:</strong> the photocard — she pays it to obtain the comic book one week earlier.</p>
+          <p><strong>Benefit to Peter:</strong> the photocard, which compensates him for deferring his use of the book.</p>
+          <p><em>This is interest paid in kind, not money.</em></p>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Keep learning, keep growing.</p>
+    </div>
+  </footer>
+
+  <script src="menu.js"></script>
+  <script src="site-search.js"></script>
+</body>
+</html>
