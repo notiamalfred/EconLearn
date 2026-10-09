@@ -18,7 +18,7 @@ body {
 }
 
 .site-header {
-  background: #1a365d;
+  background: #1c4532;
   color: #fff;
   position: sticky;
   top: 0;
@@ -49,7 +49,7 @@ body {
   display: none;
   width: 100%;
   flex-direction: column;
-  background: #1a365d;
+  background: #1c4532;
   padding: 0 4px 12px;
 }
 
@@ -68,12 +68,23 @@ body {
 }
 
 .nav a:hover {
-  background: #2b6cb0;
+  background: #2f855a;
   color: #fff;
 }
 
+/* Cross-site link — visually distinct from in-site nav items */
+.nav .cross-link {
+  color: #fbd38d;
+  font-weight: 600;
+}
+
+.nav .cross-link:hover {
+  background: #22543d;
+  color: #fefcbf;
+}
+
 .hero {
-  background: linear-gradient(135deg, #1a365d, #2b6cb0);
+  background: linear-gradient(135deg, #1c4532, #276749);
   color: #fff;
   text-align: center;
   padding: 80px 20px;
@@ -88,13 +99,13 @@ body {
   font-size: 1.15rem;
   max-width: 640px;
   margin: 0 auto 32px;
-  color: #bee3f8;
+  color: #c6f6d5;
 }
 
 .btn {
   display: inline-block;
   background: #d69e2e;
-  color: #1a365d;
+  color: #1c4532;
   padding: 12px 28px;
   border-radius: 6px;
   text-decoration: none;
@@ -113,7 +124,7 @@ body {
 
 .quote-of-the-day h2 {
   font-size: 1.6rem;
-  color: #1a365d;
+  color: #1c4532;
   margin-bottom: 20px;
 }
 
@@ -143,7 +154,7 @@ body {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 8px;
-  color: #1a365d;
+  color: #1c4532;
 }
 
 .concepts .section-subtitle {
@@ -167,7 +178,7 @@ body {
 }
 
 .concept-card h3 {
-  color: #1a365d;
+  color: #1c4532;
   font-size: 1.05rem;
   margin-bottom: 6px;
 }
@@ -185,7 +196,7 @@ body {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 40px;
-  color: #1a365d;
+  color: #1c4532;
 }
 
 .feature-grid {
@@ -202,7 +213,7 @@ body {
 }
 
 .feature-card h3 {
-  color: #2b6cb0;
+  color: #2f855a;
   margin-bottom: 8px;
 }
 
@@ -228,13 +239,13 @@ body {
 }
 
 .skill-page h2 {
-  color: #1a365d;
+  color: #1c4532;
   font-size: 1.9rem;
 }
 
 .part-heading {
   font-size: 1.4rem;
-  color: #1a365d;
+  color: #1c4532;
   margin: 40px 0 20px;
   padding-bottom: 8px;
   border-bottom: 2px solid #cbd5e0;
@@ -254,7 +265,7 @@ body {
 
 .part-btn {
   display: inline-block;
-  background: #2b6cb0;
+  background: #2f855a;
   color: #fff;
   padding: 8px 20px;
   border-radius: 6px;
@@ -264,7 +275,7 @@ body {
 }
 
 .part-btn:hover {
-  background: #1a365d;
+  background: #1c4532;
 }
 
 .skill-grid {
@@ -274,20 +285,20 @@ body {
 
 .skill-card {
   background: #fff;
-  border-left: 5px solid #2b6cb0;
+  border-left: 5px solid #2f855a;
   border-radius: 8px;
   padding: 28px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .skill-card h3 {
-  color: #1a365d;
+  color: #1c4532;
   font-size: 1.25rem;
   margin-bottom: 12px;
 }
 
 .skill-card h4 {
-  color: #2b6cb0;
+  color: #2f855a;
   margin: 14px 0 6px;
   font-size: 1rem;
 }
@@ -321,7 +332,7 @@ body {
 }
 
 .example-step h4 {
-  color: #2b6cb0;
+  color: #2f855a;
   margin-bottom: 4px;
 }
 
@@ -357,7 +368,7 @@ mark {
 }
 
 .site-footer {
-  background: #1a365d;
+  background: #1c4532;
   color: #cbd5e0;
   text-align: center;
   padding: 24px 0;
