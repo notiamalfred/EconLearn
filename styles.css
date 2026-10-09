@@ -611,13 +611,3 @@ body.menu-open .site-header {
   .skill-card h3 { font-size: 1.15rem; }
   .passage-quote { padding: 12px 16px; }
 }
-
-.nav .cross-link {
-  color: #fbd38d;
-  font-weight: 600;
-}
-
-.nav .cross-link:hover {
-  background: #2b6cb0;
-  color: #fff;
-}
