@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Circular Flow — EconLearn</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Econ<span>Learn</span></a>
+
+      <div class="skill-search" role="search">
+        <div class="skill-search__field">
+          <svg class="skill-search__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="11" cy="11" r="7"></circle>
+            <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+          </svg>
+          <label class="visually-hidden" for="skillSearch">Search topics</label>
+          <input id="skillSearch" type="search" placeholder="Search topics…  (press / )"
+                 autocomplete="off" spellcheck="false" aria-describedby="skillSearchStatus">
+          <button id="skillSearchClear" class="skill-search__clear" type="button" hidden
+                  aria-label="Clear search">&times;</button>
+          <div id="searchResults" class="search-results" hidden></div>
+        </div>
+        <p id="skillSearchStatus" class="skill-search__status" role="status" aria-live="polite"></p>
+      </div>
+
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="scarcity-cost.html">Scarcity &amp; Cost</a>
+        <a href="interest.html">Interest</a>
+        <a href="allocation.html">Allocation</a>
+        <a href="circular-flow.html">Circular Flow</a>
+        <a href="demand-supply.html">Demand &amp; Supply</a>
+        <a href="exam-skills.html">Exam Skills</a>
+        <a href="glossary.html">Glossary</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="skill-page">
+    <div class="container">
+      <h2>Circular Flow &amp; Specialization</h2>
+      <p class="section-subtitle">How firms, households and markets fit together.</p>
+
+      <nav class="part-nav">
+        <a href="#part-circular" class="part-btn">Circular Flow</a>
+        <a href="#part-real-money" class="part-btn">Real vs Money Flows</a>
+        <a href="#part-special" class="part-btn">Specialization</a>
+        <a href="#part-statements" class="part-btn">Positive vs Normative</a>
+      </nav>
+
+      <h3 class="part-heading" id="part-circular">The Circular Flow</h3>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>Four flows, two markets</h3>
+          <p>Two economic units, two real flows, and two money flows in opposite directions.</p>
+
+          <h4>Firms</h4>
+          <ul>
+            <li>Produce goods</li>
+            <li>Demand factor services</li>
+            <li>Receive sales revenue</li>
+            <li>Pay production costs</li>
+          </ul>
+
+          <h4>Households</h4>
+          <ul>
+            <li>Consume goods and services</li>
+            <li>Supply factor services</li>
+            <li>Receive factor income</li>
+            <li>Make consumption expenditure</li>
+          </ul>
+
+          <h4>Three activities keep the economy moving</h4>
+          <ol>
+            <li><strong>Production:</strong> turning factors of production into goods and services.</li>
+            <li><strong>Consumption:</strong> using goods and services to satisfy human wants.</li>
+            <li><strong>Exchange:</strong> the buying and selling of goods and services.</li>
+          </ol>
+
+          <p>Do not collapse these activities into one idea: production creates output, consumption uses it, and exchange transfers it between parties.</p>
+        </article>
+
+        <article class="skill-card">
+          <h3>Two markets connect the units</h3>
+          <ul>
+            <li><strong>Product market:</strong> final goods and services are traded. The real flow from firms to households consists of final consumer goods and services.</li>
+            <li><strong>Factor market:</strong> factor services supplied by the owners of factors of production are traded. Factors include capital, land, labour and entrepreneurship.</li>
+          </ul>
+          <p>Factor services are real flows; factor income is the corresponding money flow.</p>
+        </article>
+      </div>
+
+      <h3 class="part-heading" id="part-real-money">Real Flow vs Money Flow</h3>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>Definitions</h3>
+          <ul>
+            <li><strong>Real flow:</strong> the flow of goods and services, including factor services.</li>
+            <li><strong>Money flow:</strong> the flow of monetary income and monetary expenditure.</li>
+          </ul>
+          <p>A real flow and its payment are two sides of the same transaction.</p>
+        </article>
+
+        <article class="skill-card">
+          <h3>Direction table</h3>
+          <ul>
+            <li>Households → firms, <strong>money</strong> → <em>Consumption expenditure</em> (household view) / <em>Sales revenue</em> (firm view).</li>
+            <li>Firms → households, <strong>real</strong> → <em>Final consumer goods and services received</em> / <em>Final consumer goods and services supplied</em>.</li>
+            <li>Households → firms, <strong>real</strong> → <em>Factor services supplied</em> / <em>Factor services received</em>.</li>
+            <li>Firms → households, <strong>money</strong> → <em>Factor income</em> / <em>Production cost</em>.</li>
+          </ul>
+          <p><em>The same flow can have one name from the household perspective and another from the firm perspective.</em></p>
+        </article>
+
+        <article class="skill-card">
+          <h3>Market value identity</h3>
+          <p>Market value in production = income generated in production = expenditure on final output.</p>
+          <p>Same period, same final output: the value created by production generates income and is matched by expenditure on that final output.</p>
+          <p><strong>Immediate goods are excluded</strong> when the market value of final output is measured.</p>
+        </article>
+      </div>
+
+      <h3 class="part-heading" id="part-special">Specialization and Exchange</h3>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>Specialize according to lower opportunity cost</h3>
+          <p>Opportunity cost identifies who should produce what.</p>
+
+          <h4>Two different comparisons</h4>
+          <ul>
+            <li><strong>Absolute comparison:</strong> who can produce more output with the same time or resources?</li>
+            <li><strong>Opportunity-cost comparison:</strong> who sacrifices less of the other good to produce one more unit?</li>
+          </ul>
+          <p>Absolute productivity is <strong>not</strong> the decision rule.</p>
+
+          <p>Producing a good at a lower opportunity cost than another person means having a <mark>comparative advantage</mark> in that good.</p>
+        </article>
+
+        <article class="skill-card">
+          <h3>Exchange makes specialization feasible</h3>
+          <ul>
+            <li>No opportunity for exchange.</li>
+            <li>Each must be self-sufficient.</li>
+            <li>Specialization cannot take place.</li>
+          </ul>
+          <p><strong>Necessary does not mean sufficient:</strong> an opportunity for exchange permits specialization but does not by itself guarantee that people will choose to specialize.</p>
+
+          <h4>Difference between specialization and exchange</h4>
+          <ul>
+            <li><strong>Specialization</strong> changes the allocation of production. When production follows lower opportunity cost, it can increase total output.</li>
+            <li><strong>Exchange</strong> allows each specialist to obtain the good she no longer produces. It makes specialization feasible; it does not itself produce the extra output.</li>
+          </ul>
+          <p>Lower opportunity cost guides specialization; specialization changes production; exchange enables access to other goods.</p>
+        </article>
+      </div>
+
+      <h3 class="part-heading" id="part-statements">Positive vs Normative</h3>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>Positive statement</h3>
+          <p>A claim about the objective world that is <mark>refutable by facts</mark>.</p>
+          <p>Claim about the objective world + evidence could show it is wrong = positive statement. A positive statement may be true or false.</p>
+        </article>
+
+        <article class="skill-card">
+          <h3>Normative statement</h3>
+          <p>A claim involving <mark>value judgement</mark> (subjective).</p>
+          <ul>
+            <li><em>Desirability:</em> minimum wage legislation is undesirable.</li>
+            <li><em>Priority:</em> building artificial islands is more important for Hong Kong than reducing income inequality.</li>
+          </ul>
+        </article>
+
+        <article class="skill-card">
+          <h3>Three cases — every claim belongs to one</h3>
+          <ol>
+            <li>Positive</li>
+            <li>Normative</li>
+            <li>Neither: true by definition or logic and involves no value judgement.</li>
+          </ol>
+          <p><em>Example of "neither":</em> "Triangles have three angles" is true by definition. It is not a claim that evidence could refute, and it contains no value judgement.</p>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Keep learning, keep growing.</p>
+    </div>
+  </footer>
+
+  <script src="menu.js"></script>
+  <script src="site-search.js"></script>
+</body>
+</html>
