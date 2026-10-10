@@ -635,14 +635,104 @@ body.menu-open .site-header {
   color: #4a5568;
 }
 
-.figure-scroll {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin: 16px 0;
+/* ---------- Wide diagrams ---------- */
+.figure-wide img {
+  max-width: 100%;
+  width: 100%;
 }
 
-.figure-scroll img {
-  max-width: none;
-  width: auto;
-  min-width: 900px;
+.figure-narrow img {
+  max-width: 640px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- Figure captions ---------- */
+.skill-card figcaption,
+.passage-card figcaption,
+figure figcaption {
+  color: #718096;      /* muted gray — matches the site's secondary text */
+  font-style: italic;
+  font-size: 0.85rem;
+  margin-top: 6px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* ---------- Mobile width guards ---------- */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+img, svg, video, canvas, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent flex/grid children from forcing their parent wider than the viewport */
+.skill-card,
+.passage-card,
+.concept-card,
+.feature-card,
+.skill-grid,
+.container {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Long words and URLs shouldn't push the layout wider */
+.skill-card,
+.passage-card,
+.concept-card,
+.feature-card,
+.nav a,
+.search-result__text {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Tables: allow horizontal scroll on narrow screens instead of overflowing */
+.data-table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+}
+
+/* Tighten padding on very small phones */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 12px;
+  }
+
+  .skill-card,
+  .passage-card,
+  .concept-card,
+  .feature-card {
+    padding: 16px 14px;
+  }
+
+  .hero {
+    padding: 40px 12px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .skill-page h2 {
+    font-size: 1.4rem;
+  }
+
+  .part-btn {
+    padding: 6px 14px;
+    font-size: 0.85rem;
+  }
+
+  .figure-narrow img {
+    max-width: 100%;
+  }
 }
