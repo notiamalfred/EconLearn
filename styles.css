@@ -613,24 +613,31 @@ body.menu-open .site-header {
 }
 
 /* ---------- Data tables ---------- */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  margin: 20px 0;
+}
+
 .data-table {
   width: 100%;
   border-collapse: collapse;
-  margin: 12px 0;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
 }
 
 .data-table th {
   background: #1c4532;
   color: #fff;
   font-weight: 700;
-  text-align: left;
-  padding: 8px 12px;
+  text-align: center;
+  padding: 14px 20px;
   border: 1px solid #cbd5e0;
 }
 
 .data-table td {
-  padding: 8px 12px;
+  padding: 12px 20px;
+  text-align: center;
   border: 1px solid #cbd5e0;
   color: #4a5568;
 }
@@ -692,14 +699,6 @@ img, svg, video, canvas, iframe {
   overflow-wrap: break-word;
   word-wrap: break-word;
   word-break: break-word;
-}
-
-/* Tables: allow horizontal scroll on narrow screens instead of overflowing */
-.data-table {
-  display: block;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  max-width: 100%;
 }
 
 /* Tighten padding on very small phones */
