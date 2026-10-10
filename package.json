@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/notiamalfred/EconLearn/issues"
   },
-  "homepage": "https://github.com/notiamalfred/EconLearn#readme"
+  "homepage": "https://github.com/notiamalfred/EconLearn#readme",
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
 }
