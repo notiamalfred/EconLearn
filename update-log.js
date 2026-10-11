@@ -4,7 +4,7 @@
   "use strict";
 
   /* Your Cloudflare Worker URL for this site. */
-  var WORKER_URL = "https://mathlearn.hohimsmp.workers.dev";
+  var WORKER_URL = "https://econlearn.hohimsmp.workers.dev";
 
   var MAX_COMMITS = 10;
 
