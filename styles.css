@@ -27,7 +27,7 @@ body {
   top: 0;
 
   /* Make sure it stays above page content */
-  z-index: 9999;
+  z-index: 1000;
 
   width: 100%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
