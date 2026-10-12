@@ -623,6 +623,7 @@ body.menu-open .site-header {
 
 /* ---------- Data tables ---------- */
 .table-wrap {
+  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   max-width: 100%;
   margin: 20px 0;
@@ -677,7 +678,6 @@ figure figcaption {
 
 /* ---------- Mobile width guards ---------- */
 html, body {
-  overflow-x: hidden;
   max-width: 100%;
 }
 
