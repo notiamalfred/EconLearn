@@ -22,7 +22,14 @@ body {
   color: #fff;
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.site-header--scrolled {
+  background: #123021;   /* darker green */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.28);
 }
 
 .header-inner {
@@ -51,6 +58,8 @@ body {
   flex-direction: column;
   background: #1c4532;
   padding: 0 4px 12px;
+  position: relative;
+  z-index: 1001;
 }
 
 .nav.nav-open {
@@ -570,7 +579,7 @@ mark {
 }
 
 body.menu-open .site-header {
-  z-index: 60;
+  z-index: 1000;
 }
 
 /* ---------- Mobile ---------- */
