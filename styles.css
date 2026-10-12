@@ -20,9 +20,16 @@ body {
 .site-header {
   background: #1c4532;
   color: #fff;
+
+  /* Keep it stuck to the top */
+  position: -webkit-sticky;   /* Safari */
   position: sticky;
   top: 0;
-  z-index: 1000;
+
+  /* Make sure it stays above page content */
+  z-index: 9999;
+
+  width: 100%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
   transition: box-shadow 0.25s ease, background 0.25s ease;
 }
